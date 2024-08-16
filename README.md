@@ -30,5 +30,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </ul>
 
 <h3>Installation Steps</h3>
+Placeholder image
+<img src="">
+Lorem ipsum....
+
+Placeholder image
+<img src="">
+Lorem ipsum....
+
+Placeholder image
+<img src="">
+Lorem ipsum....
+
 
 
