@@ -1,3 +1,3 @@
-<img src="https://picsvg.com/svg/I9LS17.jpg">
+<img src="https://picsvg.com/svg/edkUYX.jpg">
 
  osTicket--Prerequisites-and-Installation
