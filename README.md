@@ -36,7 +36,9 @@ Open https://portal.azure.com
 <br>Select Region*, to (Canada) Canada Central
 <br>Click Review + Create, if Validation passed, Click Create. 
 <br>In the search box, type in virtual machine. 
-<img src="https://imgur.com/a/fydVyPd" height="80%" width="80%" alt="">
+<br>
+<br>
+<img src="https://iili.io/dM25uIe.png" height="80%" width="80%" alt="screenshot1">
 
 In Virtual machines, click + Create
 <br>Under Project details, in Resource group*, select RG-bv-osTicket
@@ -44,6 +46,13 @@ In Virtual machines, click + Create
 <br>In region*, Select (Canada) Canada Central
 <br>In Image*, Select Windows 10 Pro version 22H2 - x64 Gen2 (free services eligible)
 <br>In size*, select Standard_D4s_v3 - 4 vcpus, 16 GiB memory ($162.06/month)
+<br>
+<br>
+<img src="https://iili.io/dM3FCaj.png" height="80%" width="80%" alt="screenshot2">
+
+<br>
+<br>
+<img src="https://iili.io/dM3qUoN.png" height="80%" width="80%" alt="screenshot3">
 
 In Administrator account:
 <br>In username*, type bv-labuser
@@ -56,6 +65,14 @@ In Licensing:
 
 In Networking:
 <br>Click Review + Create. If Validation passed, Click Create. 
+
+<br>
+<br>
+<img src="https://iili.io/dM3VhSn.png" height="80%" width="80%" alt="screenshot3">
+
+Your Virtual Machine deployment is successful! 
+
+
 
 
 
