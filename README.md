@@ -36,6 +36,7 @@ Open https://portal.azure.com
 <br>Select Region*, to (Canada) Canada Central
 <br>Click Review + Create, if Validation passed, Click Create. 
 <br>In the search box, type in virtual machine. 
+<img src="https://imgur.com/a/fydVyPd" height="80%" width="80%" alt="">
 
 In Virtual machines, click + Create
 <br>Under Project details, in Resource group*, select RG-bv-osTicket
