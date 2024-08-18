@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <hr align="left" height="99%" width="99%"></hr>
 <h3>Installation Steps</h3>
 <p>
-Open https//portal.azure.com
+Open https://portal.azure.com
 <br>Sign in to your Azure account
 <br>Under the section Create a Resource Group, in Resource group* called RG-bv-osTicket
 <br>Select Region*, to (Canada) Canada Central
