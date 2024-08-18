@@ -48,11 +48,11 @@ In Virtual machines, click + Create
 <br>In size*, select Standard_D4s_v3 - 4 vcpus, 16 GiB memory ($162.06/month)
 <br>
 <br>
-<img src="https://iili.io/dM3FCaj.png" height="80%" width="80%" alt="screenshot2">
+<img src="https://iili.io/dM3FCaj.png" height="96%" width="96%" alt="screenshot2">
 
 <br>
 <br>
-<img src="https://iili.io/dM3qUoN.png" height="80%" width="80%" alt="screenshot3">
+<img src="https://iili.io/dM3qUoN.png" height="96%" width="96%" alt="screenshot3">
 
 In Administrator account:
 <br>In username*, type bv-labuser
@@ -68,7 +68,7 @@ In Networking:
 
 <br>
 <br>
-<img src="https://iili.io/dM3VhSn.png" height="80%" width="80%" alt="screenshot3">
+<img src="https://iili.io/dM3VhSn.png" height="96%" width="96%" alt="screenshot3">
 
 Your Virtual Machine deployment is successful! 
 
@@ -78,8 +78,8 @@ Your Virtual Machine deployment is successful!
 
 
 
-
-
+<br>
+<br>
 </p>
 
 
