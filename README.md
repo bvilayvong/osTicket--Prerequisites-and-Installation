@@ -22,15 +22,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>List of Prerequisites</h3>
 <ul>
-   <li>Item 1</li>
-   <li>Item 2</li>
-   <li>Item 3</li>
+   <li>Microsoft Azure</li>
+   <li>Virtual Machine</li>
+   <li>osTicket Installation Files</li>
    <li>Item 4</li>
    <li>Item 5</li>
 </ul>
-
+<hr height="99%" width="99%"></hr>
 <h3>Installation Steps</h3>
 <p>
+Step 1: Connect to your Virtual Machine with Remote Desktop
+
+Step 2: Install and Enable Internet Services (IIS) in Windows
+
 Placeholder image
 <img src="" height="80%" width="80%" alt="Disk Sanitization steps">
 Lorem ipsum....
