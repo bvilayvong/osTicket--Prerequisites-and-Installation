@@ -191,7 +191,7 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>-Create a new session, root/Password1
 <br>-Connect to the session
 <br>-Create a database called “osTicket”
-<br>
+<img src="https://iili.io/dMhggyJ.png" height="96%" width="96%" alt="screenshot13">
 <br>Continue Setting up osticket in the browser
 <br>-MySQL Database: osTicket
 <br>-MySQL Username: root
@@ -199,6 +199,7 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>-Click “Install Now!”
 <br>
 <br>Congratulations, hopefully it is installed with no errors!
+<img src="https://iili.io/dMh4igt.png" height="96%" width="96%" alt="screenshot14">
 <br>Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 <br>For admin logins to do admin things. 
 <br>
@@ -208,7 +209,7 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>Clean up
 <br>Delete: C:\inetpub\wwwroot\osTicket\setup
 <br>Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-<br>
+<img src="https://iili.io/dMhidOu.png" height="96%" width="96%" alt="screenshot15">
 <br>Notes:
 <br>Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
 <br>End Users osTicket URL: http://localhost/osTicket/ 
