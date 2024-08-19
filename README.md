@@ -171,7 +171,7 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>-Default email (receives email from customers)
 <br>
 <br>Helpdesk name: Boby Help Desk
-<br>Default email: bvilayvong@hotmail.com
+<br>Default email: bee_souljah@hotmail.com
 <br>First Name: Boby
 <br>Last Name: Vilayvong
 <br>Email Address: bvilayvong@hotmail.com
