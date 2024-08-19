@@ -213,6 +213,8 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>Notes:
 <br>Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
 <br>End Users osTicket URL: http://localhost/osTicket/ 
+<img src="https://iili.io/dMhLsOF.png" height="96%" width="96%" alt="screenshot16">
+
 
 
 
