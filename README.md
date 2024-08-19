@@ -217,24 +217,7 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 
 
 <p>
-Step 1: Connect to your Virtual Machine with Remote Desktop
 
-Step 2: Install and Enable Internet Services (IIS) in Windows
-
-Placeholder image
-<img src="" height="80%" width="80%" alt="Disk Sanitization steps">
-Lorem ipsum....
-</p>
-<p>
-Placeholder image
-<img src="">
-Lorem ipsum....
-</p>
-<p>
-Placeholder image
-<img src="">
-Lorem ipsum....
-</p>
 
 
 
