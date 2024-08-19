@@ -110,100 +110,101 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>click uninstall a program, click turn windows feature on or off
 <br>uncheck box in Internet Information Services, then do the installation again. 
 <br>
-From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+<br>From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
-From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+<br>From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
-Create the directory C:\PHP
--Create a folder called PHP in Drive C
+<br>Create the directory C:\PHP
+<br>-Create a folder called PHP in Drive C
 
-From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+<br>From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
 !! ATTENTION !!
-If this appears, choose to “Keep” the file:
-
-From the Installation Files, download and install VC_redist.x86.exe.
-From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
--Typical Setup ->
--Launch Configuration Wizard (after install) ->
--Standard Configuration ->
-mysql login:
--username: root
--Password: Password1
-
-Open IIS as an Administrator
--start menu, type IIS (Internet Information Services Manager App)
--right click as run as Administrator
-Register PHP from within IIS
--In IIS, click PHP Manager
--click register new PHP version
-Reload IIS (Open IIS, Stop and Start the server)
--Make sure VM-osTicket is selected, under manage server, click restart
-Install osTicket v1.15.8
--Download osTicket from the Installation Files Folder
--Extract and copy “upload” folder to c:\inetpub\wwwroot
--Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
-
-Reload IIS (Open IIS, Stop and Start the server)
--Make sure VM-osTicket is selected, under manage server, click restart
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
-
-Note that some extensions are not enabled
--Go back to IIS, sites -> Default -> osTicket
--Double-click PHP Manager
--Click “Enable or disable an extension”
--Enable: php_imap.dll
--Enable: php_intl.dll
--Enable: php_opcache.dll
--Refresh the osTicket site in your browse, observe the changes
-
-Rename: ost-config.php
--From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
--To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
-Assign Permissions: ost-config.php
--Disable inheritance -> Remove All
--New Permissions -> Everyone -> All
-
-Continue Setting up osTicket in the browser (click Continue)
--Name Helpdesk
--Default email (receives email from customers)
-
-Helpdesk name: Boby Help Desk
-Default email: bvilayvong@hotmail.com
-First Name: Boby
-Last Name: Vilayvong
-Email Address: bvilayvong@hotmail.com
-Username: bvilayvong
-Password: Password1
-
-
-From the Installation Files, download and install HeidiSQL.
--Open Heidi SQL
--Create a new session, root/Password1
--Connect to the session
--Create a database called “osTicket”
-
-Continue Setting up osticket in the browser
--MySQL Database: osTicket
--MySQL Username: root
--MySQL Password: Password1
--Click “Install Now!”
-
-Congratulations, hopefully it is installed with no errors!
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php
-For admin logins to do admin things. 
-
-End Users osTicket URL: for creating tickets
-http://localhost/osTicket/ 
-
-Clean up
-Delete: C:\inetpub\wwwroot\osTicket\setup
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
-Notes:
-Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
-End Users osTicket URL: http://localhost/osTicket/ 
+<br>If this appears, choose to “Keep” the file:
+<br>
+<br>From the Installation Files, download and install VC_redist.x86.exe.
+<br>From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+<br>-Typical Setup ->
+<br>-Launch Configuration Wizard (after install) ->
+<br>-Standard Configuration ->
+<br>mysql login:
+<br>-username: root
+<br>-Password: Password1
+<br>
+<br>Open IIS as an Administrator
+<br>-start menu, type IIS (Internet Information Services Manager App)
+<br>-right click as run as Administrator
+<br>Register PHP from within IIS
+<br>-In IIS, click PHP Manager
+<br>-click register new PHP version
+<br>Reload IIS (Open IIS, Stop and Start the server)
+<br>-Make sure VM-osTicket is selected, under manage server, click restart
+<br>
+<br>Install osTicket v1.15.8
+<br>-Download osTicket from the Installation Files Folder
+<br>-Extract and copy “upload” folder to c:\inetpub\wwwroot
+<br>-Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+<br>
+<br>Reload IIS (Open IIS, Stop and Start the server)
+<br>-Make sure VM-osTicket is selected, under manage server, click restart
+<br>Go to sites -> Default -> osTicket
+<br>On the right, click “Browse *:80”
+<br>
+<br>Note that some extensions are not enabled
+<br>-Go back to IIS, sites -> Default -> osTicket
+<br>-Double-click PHP Manager
+<br>-Click “Enable or disable an extension”
+<br>-Enable: php_imap.dll
+<br>-Enable: php_intl.dll
+<br>-Enable: php_opcache.dll
+<br>-Refresh the osTicket site in your browse, observe the changes
+<br>
+<br>Rename: ost-config.php
+<br>-From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+<br>-To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<br>
+<br>Assign Permissions: ost-config.php
+<br>-Disable inheritance -> Remove All
+<br>-New Permissions -> Everyone -> All
+<br>
+<br>Continue Setting up osTicket in the browser (click Continue)
+<br>-Name Helpdesk
+<br>-Default email (receives email from customers)
+<br>
+<br>Helpdesk name: Boby Help Desk
+<br>Default email: bvilayvong@hotmail.com
+<br>First Name: Boby
+<br>Last Name: Vilayvong
+<br>Email Address: bvilayvong@hotmail.com
+<br>Username: bvilayvong
+<br>Password: Password1
+<br>
+<br>
+<br>From the Installation Files, download and install HeidiSQL.
+<br>-Open Heidi SQL
+<br>-Create a new session, root/Password1
+<br>-Connect to the session
+<br>-Create a database called “osTicket”
+<br>
+<br>Continue Setting up osticket in the browser
+<br>-MySQL Database: osTicket
+<br>-MySQL Username: root
+<br>-MySQL Password: Password1
+<br>-Click “Install Now!”
+<br>
+<br>Congratulations, hopefully it is installed with no errors!
+<br>Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+<br>For admin logins to do admin things. 
+<br>
+<br>End Users osTicket URL: for creating tickets
+<br>http://localhost/osTicket/ 
+<br>
+<br>Clean up
+<br>Delete: C:\inetpub\wwwroot\osTicket\setup
+<br>Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<br>
+<br>Notes:
+<br>Browse to your help desk login page: http://localhost/osTicket/scp/login.php  
+<br>End Users osTicket URL: http://localhost/osTicket/ 
 
 
 
