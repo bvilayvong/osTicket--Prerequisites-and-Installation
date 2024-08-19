@@ -110,9 +110,10 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <img src="https://iili.io/dMhfqOb.png" height="96%" width="96%" alt="screenshot6">
 <img src="https://iili.io/dMhzX6v.png" height="96%" width="96%" alt="screenshot7">
 <img src="https://iili.io/dMhTjpI.png" height="96%" width="96%" alt="screenshot8">
-
 <br>
 <br>open a new tab window, type in the URL box, 127.0.0.1 for Internet Information Services web page to load. 
+<img src="https://iili.io/dMh5Vnt.png" height="96%" width="96%" alt="screenshot9">
+<br>
 <br>Note: If URL 127.0.0.1 web page did not load, go to control panel
 <br>click uninstall a program, click turn windows feature on or off
 <br>uncheck box in Internet Information Services, then do the installation again. 
