@@ -113,13 +113,12 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>
 <br>open a new tab window, type in the URL box, 127.0.0.1 for Internet Information Services web page to load. 
 <img src="https://iili.io/dMh5Vnt.png" height="96%" width="96%" alt="screenshot9">
-<br>
 <br>Note: If URL 127.0.0.1 web page did not load, go to control panel
 <br>click uninstall a program, click turn windows feature on or off
 <br>uncheck box in Internet Information Services, then do the installation again. 
 <br>
 <br>From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
-
+<img src="https://iili.io/dMhwS7p.png" height="96%" width="96%" alt="screenshot10">
 <br>From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
 
 <br>Create the directory C:\PHP
@@ -156,7 +155,7 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>-Make sure VM-osTicket is selected, under manage server, click restart
 <br>Go to sites -> Default -> osTicket
 <br>On the right, click “Browse *:80”
-<br>
+<img src="https://iili.io/dMhObz7.png" height="96%" width="96%" alt="screenshot12">
 <br>Note that some extensions are not enabled
 <br>-Go back to IIS, sites -> Default -> osTicket
 <br>-Double-click PHP Manager
