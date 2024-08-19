@@ -78,38 +78,38 @@ Your Virtual Machine deployment is successful!
 
 Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit
 <br>
-<b>Installation video:<b>
-In Virtual machines, click your VM-osTicket name
-For windows users, click start menu by typing "Remote desktop connection" app. 
-Copy and paste your VM Public IP address to Computer:
-Click Connect
-Enter your credentials, user name and password. 
-The identity of the remote computer cannot be verified. Do you want to connect anyway? box appears. Click Yes. 
-
-For Mac users, you need to install "Microsoft Remote Desktop" from the App Store. 
-clicking magnify icon on top right of Chrome or Command + space, click + add PC
-Copy and Paste your VM Public IP address in to PC name: 
-
-Start menu, click run, type control panel
-click programs, click Turn windows features on or off
-
-Install / Enable IIS in Windows WITH
-CGI and Common HTTP Features
-World Wide Web Services -> Application Development Features ->
-[X] CGI
-[X] Common HTTP Features
-Make sure all folders in Common HTTP Features are check marked, 
-There should be 6 folders. 
-click ok. 
-Windows completed the requested changes. click close. 
-
-Note: IIS is a web server that osTicket runs on
-
-open a new tab window, type in the URL box, 127.0.0.1 for Internet Information Services web page to load. 
-Note: If URL 127.0.0.1 web page did not load, go to control panel
-click uninstall a program, click turn windows feature on or off
-uncheck box in Internet Information Services, then do the installation again. 
-
+<h3>Installation video:</h3>
+<br>In Virtual machines, click your VM-osTicket name
+<br>For windows users, click start menu by typing "Remote desktop connection" app. 
+<br>Copy and paste your VM Public IP address to Computer:
+<br>Click Connect
+<br>Enter your credentials, user name and password. 
+<br>The identity of the remote computer cannot be verified. Do you want to connect anyway? box appears. Click Yes. 
+<br>
+<br>For Mac users, you need to install "Microsoft Remote Desktop" from the App Store. 
+<br>clicking magnify icon on top right of Chrome or Command + space, click + add PC
+<br>Copy and Paste your VM Public IP address in to PC name: 
+<br>
+<br>Start menu, click run, type control panel
+<br>click programs, click Turn windows features on or off
+<br>
+<br>Install / Enable IIS in Windows WITH
+<br>CGI and Common HTTP Features
+<br>World Wide Web Services -> Application Development Features ->
+<br>[X] CGI
+<br>[X] Common HTTP Features
+<br>Make sure all folders in Common HTTP Features are check marked, 
+<br>There should be 6 folders. 
+<br>click ok. 
+<br>Windows completed the requested changes. click close. 
+<br>
+<br>Note: IIS is a web server that osTicket runs on
+<br>
+<br>open a new tab window, type in the URL box, 127.0.0.1 for Internet Information Services web page to load. 
+<br>Note: If URL 127.0.0.1 web page did not load, go to control panel
+<br>click uninstall a program, click turn windows feature on or off
+<br>uncheck box in Internet Information Services, then do the installation again. 
+<br>
 From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
 From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
