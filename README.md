@@ -68,7 +68,7 @@ In Networking:
 
 <br>
 <br>
-<img src="https://iili.io/dM3VhSn.png" height="96%" width="96%" alt="screenshot3">
+<img src="https://iili.io/dM3VhSn.png" height="96%" width="96%" alt="screenshot4">
 
 Your Virtual Machine deployment is successful! 
 
@@ -82,6 +82,9 @@ Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVc
 <br>In Virtual machines, click your VM-osTicket name
 <br>For windows users, click start menu by typing "Remote desktop connection" app. 
 <br>Copy and paste your VM Public IP address to Computer:
+<br>
+<br>
+<img src="https://iili.io/dMh2gDl.png" height="96%" width="96%" alt="screenshot5">
 <br>Click Connect
 <br>Enter your credentials, user name and password. 
 <br>The identity of the remote computer cannot be verified. Do you want to connect anyway? box appears. Click Yes. 
