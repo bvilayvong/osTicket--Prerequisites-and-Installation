@@ -78,7 +78,6 @@ Your Virtual Machine deployment is successful!
 
 Reference: https://docs.google.com/document/d/12QH7yrsaiUfYNOgZK7KgTSZQSJ-HYTSVcGFildWMRig/edit
 <br>
-<h3>Installation video:</h3>
 <br>In Virtual machines, click your VM-osTicket name
 <br>For windows users, click start menu by typing "Remote desktop connection" app. 
 <br>Copy and paste your VM Public IP address to Computer:
